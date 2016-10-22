@@ -18,31 +18,7 @@ typedef long long ll;
 
 const long long linf = 1e18+5;
 const int mod = (int) 1e9 + 7;
-const int inf = 1e9;
 
-ll read(){
-	bool minus = false;
-	ll result = 0;
-	char ch;
-	ch = getchar();
-	while (true) {
-		if (ch == '-') break;
-		if (ch >= '0' && ch <= '9') break;
-		ch = getchar();
-	}
-	if (ch == '-') minus = true; else result = ch-'0';
-	while (true) {
-		ch = getchar();
-		if (ch < '0' || ch > '9') break;
-		result = result*10 + (ch - '0');
-	}
-	if (minus){
-		return -result;
-	}
-	else{
-		return result;
-	}
-}
 
 ll fpow(ll base,ll power){
 	ll result = 1;
@@ -108,7 +84,7 @@ void solve(){
 int main(){
 
  	int t;
- 	cin >> t;
+ 	scanf("%d",&t);
  	while ( t -- ){
  		solve();
  	} 
