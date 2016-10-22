@@ -4,11 +4,11 @@ using namespace std;
 
 typedef long long ll;
 
-#define eps 1e-9
+#define eps 1e-8
 #define all(a)   a.begin(),a.end()
 #define mp make_pair
-#define F first
-#define S second
+#define FF first
+#define SS second
 #define pb push_back
 #define sz size()
 #define rd(inp) scanf("%lld",&inp)
