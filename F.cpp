@@ -9,6 +9,7 @@ typedef long long ll;
 #define mp make_pair
 #define FF first
 #define SS second
+//hatred ss seciong
 #define pb push_back
 #define sz sizee()
 #define rd(inp) scanf("%lld",&inp)
