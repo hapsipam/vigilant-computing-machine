@@ -10,7 +10,7 @@ typedef long long ll;
 #define FF first
 #define SS second
 #define pb push_back
-#define sz size()
+#define sz sizee()
 #define rd(inp) scanf("%lld",&inp)
 #define rd2(inp1, inp2) scanf("%lld %lld",&inp1, &inp2)
 #define rl(inp) scanf("%d",&inp)
